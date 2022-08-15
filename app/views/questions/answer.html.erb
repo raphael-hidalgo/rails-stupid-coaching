@@ -1,0 +1,14 @@
+<div class="container" style="margin: 20px auto;">
+  <h1>Silly coaching</h1>
+  <div class="p-5 m-5">
+    <div class="border-start border-5 p-3 m-3">
+      <p><em>You</em> - <%= params[:question] %></p>
+    </div>
+    <div class="border-start border-5 p-3 m-3" style="background-color: rgba(255, 226, 0, 0.2)">
+      <p><em>Coach</em> - <%= @answer %></p>
+    </div>
+  </div>
+  <div>
+  <button class="btn border-primary"><%= link_to "ask new question", "ask" %></button>
+  </div>
+</div>
